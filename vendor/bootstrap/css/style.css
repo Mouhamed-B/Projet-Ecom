@@ -1,0 +1,51 @@
+input.form-control {
+	width: 60%;
+}
+
+html, body {
+	background-color: #1c3854;
+}
+
+div#contenu {
+	padding-top: 5%;
+	padding-bottom: 5%;
+	background-color: white;
+}
+
+textarea {
+	width: 70%;
+}
+
+label {
+	font-weight: bold;
+}
+
+.menu {
+	border-right: 2px solid #ededed;
+	height: auto;
+}
+@media screen and (max-width: 991px)
+{
+	.menu
+	{
+		border-right: none;
+		border-bottom: 1px solid grey;
+	}
+}
+
+table {
+	height: 50%;
+}
+
+td, th {
+	text-align: center;
+}
+
+div#button-tab {
+	padding-top: 5%;
+}
+
+div#button-tab a {
+	margin-top: -1%;
+	margin-bottom: -1%;
+}

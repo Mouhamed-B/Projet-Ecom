@@ -1,0 +1,97 @@
+html, body {
+	background-color: #1c3854;
+}
+
+div#contenu {
+	padding-top: 2%;
+	padding-bottom: 5%;
+	background-color: white;
+
+	height: inherit;
+}
+
+.form-inline label {
+	margin-right: 5%;
+}
+
+form {
+	width: 70%;
+}
+
+label {
+	font-weight: bold;
+}
+
+.menu {
+	border-right: 2px solid #ededed;
+	height: auto;
+}
+@media screen and (max-width: 991px)
+{
+	.menu
+	{
+		border-right: none;
+		border-bottom: 1px solid grey;
+		padding-bottom: 2%;
+	}
+
+	#v-pills-tabContent
+	{
+		padding-top: 5%;
+	}
+
+	html,body {
+		width: fit-content;
+	}
+}
+
+table {
+	height: 50%;
+}
+
+td, th {
+	text-align: center;
+}
+
+div#button-tab {
+	padding-top: 5%;
+}
+
+div#button-tab a {
+	margin-top: -1%;
+	margin-bottom: -1%;
+}
+.bg-primary {
+	color: white;
+}
+
+form {
+	width: 70%;
+}
+
+#home{
+	position: relative;
+	left: 20%;
+}
+
+#off{
+	position: absolute;
+    right: 1%;
+    top: 8%;
+}
+
+#adm{
+	position: relative;
+	right: 5%;
+}
+
+/*
+.nav-pills > a{
+    color: black;
+}
+
+.nav-pills > a.active{
+    background-color: #343a40!important;
+    color: white;
+}
+*/

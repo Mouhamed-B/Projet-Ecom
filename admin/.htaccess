@@ -1,0 +1,5 @@
+deny from all
+AuthUserFile "C:\Users\bakho\OneDrive\Cours\Licence 2\PHP-SQL\Projet-Ecom\admin\.htpasswd"
+AuthName "Secure Document"
+AuthType Basic
+require user Md-Bm
