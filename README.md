@@ -22,12 +22,12 @@ Code basé sur 3 pages templates bootstrap:
 Le panier repose sur des cookies.(LE Panier disparait a la suppression des donnees de navigation)
 
 
-user(iduser, email,password,create_time,nom,prenom,telephone,sexe,datenaiss)
-agent(idAgent, nom, prenom, adresse, tel, sexe, dateNaiss)
-category(idcat,libellecat)
-client(idClient,addresse,#iduser)
-produit(idProduit,#idcat,libelle,prix,stock,img,caract)
-commande(idCommande,#idClient,dateCommande,#idAgent)
-lignecommande(idLigneCommande,#idCommande,#idProduit,quantite)
+user(iduser, email,password,create_time,nom,prenom,telephone,sexe,datenaiss)\
+agent(idAgent, nom, prenom, adresse, tel, sexe, dateNaiss)\
+category(idcat,libellecat)\
+client(idClient,addresse,#iduser)\
+produit(idProduit,#idcat,libelle,prix,stock,img,caract)\
+commande(idCommande,#idClient,dateCommande,#idAgent)\
+lignecommande(idLigneCommande,#idCommande,#idProduit,quantite)\
 
 
