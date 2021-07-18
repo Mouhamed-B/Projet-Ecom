@@ -15,9 +15,9 @@ Codé avec le Framework Bootstrap(v4.4.1 dependant de jQuery et Popper.js v.1.16
 Integration du pack d’icones FontAwesome et de favicons et logo crées a cet effet
 
 Code basé sur 3 pages templates bootstrap:
--https://blackrockdigital.github.io/startbootstrap-shop-homepage/
--https://blackrockdigital.github.io/startbootstrap-shop-item/
--https://getbootstrap.com/docs/4.4/examples/checkout/
+  - https://blackrockdigital.github.io/startbootstrap-shop-homepage/
+  - https://blackrockdigital.github.io/startbootstrap-shop-item/
+  - https://getbootstrap.com/docs/4.4/examples/checkout/
 
 Le panier repose sur des cookies.(LE Panier disparait a la suppression des donnees de navigation)
 
